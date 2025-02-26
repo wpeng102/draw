@@ -41,10 +41,10 @@
           <mxGeometry x="-43" y="150" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oYY9sbpEMJqJtEDze8hC-57" value="K8s Native Object" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1011" y="80" width="79" height="30" as="geometry" />
+          <mxGeometry x="1081" y="35" width="79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYY9sbpEMJqJtEDze8hC-58" value="New K8s&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Object&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1006.75" y="130" width="79" height="30" as="geometry" />
+          <mxGeometry x="1076.75" y="85" width="79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYY9sbpEMJqJtEDze8hC-59" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="87" y="140" width="90" height="40" as="geometry" />
@@ -103,13 +103,13 @@
           <mxGeometry x="505" y="235" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oYY9sbpEMJqJtEDze8hC-72" value="NVIDIA Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="180" width="89" height="30" as="geometry" />
+          <mxGeometry x="1070" y="135" width="89" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYY9sbpEMJqJtEDze8hC-73" value="K8s Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="230" width="89" height="30" as="geometry" />
+          <mxGeometry x="1070" y="185" width="89" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYY9sbpEMJqJtEDze8hC-74" value="Storage Vendor Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="275" width="89" height="35" as="geometry" />
+          <mxGeometry x="1070" y="230" width="89" height="35" as="geometry" />
         </mxCell>
         <mxCell id="oYY9sbpEMJqJtEDze8hC-75" value="Storage&lt;div&gt;Policy&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-43" y="430" width="90" height="40" as="geometry" />
@@ -210,6 +210,11 @@
         <mxCell id="oYY9sbpEMJqJtEDze8hC-104" value="Kubelet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="690" y="230" width="83" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oYY9sbpEMJqJtEDze8hC-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oYY9sbpEMJqJtEDze8hC-105" value="NVIDIA CSI Node Driver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="820" y="230" width="83" height="50" as="geometry" />
         </mxCell>
@@ -249,11 +254,98 @@
         <mxCell id="oYY9sbpEMJqJtEDze8hC-120" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-100" y="100" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="oYY9sbpEMJqJtEDze8hC-121" value="User Create a PVC that reference one of the storage class" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="-142" y="130" width="123" height="30" as="geometry" />
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-121" value="User Create a PVC that reference one of the storage class" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="-142" y="130" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oYY9sbpEMJqJtEDze8hC-123" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="210" y="290" width="20" height="20" as="geometry" />
+          <mxGeometry x="190" y="245" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-124" value="CSI controller creates a NV-Volume to let the SNAP controller knows that a new volume is requested" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="148.5" y="280" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-126" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="162" y="510" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-127" value="SNAP controller selects a storage vendor and creates a PVC that references the corresponding storage class" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="92" y="540" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-128" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="110" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-129" value="strorage vendor CSI controller provisions the underlying storage and creates the PV" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="47" y="740" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-131" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="339.75" y="175" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-132" value="CSI controller creates the PV" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="76.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-135" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-136" value="Create volume attachment" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="471" y="205" width="76.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-137" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="405" y="320" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-138" value="CSI controller creates a NV-VolumeAttachment" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="385" y="340" width="76.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-139" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="389" y="515" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-140" value="SNAP controller creates a SV-VolumeAttachment" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="341" y="535" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-141" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" y="846" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-142" value="Storage vendor CSI controller exposes volume on the underlying storage" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="28.5" y="873" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-145" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="912" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-146" value="SNAP node-driver calls the storage vendor plugin to connect the volume" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="870" y="580" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-147" value="11" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="883" y="760" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-148" value="Storage vendor DPU plugin connects volume to the underlying storage" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="862" y="790" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-149" value="12" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="707" y="641" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-150" value="Setups vendor xDev" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="678" y="655" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-151" value="13" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="790" y="530" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-153" value="Exposes volume to host" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="773" y="550" width="68" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-154" value="14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="282.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-155" value="CSI controller marks VolumeAtt as attached" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="501.75" y="302.5" width="111.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-157" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="570" as="sourcePoint" />
+            <mxPoint x="450" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-159" value="15" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="225" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oYY9sbpEMJqJtEDze8hC-160" value="Stage the volume to the host and mounts to the user&#39;s pod" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="912" y="265" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
