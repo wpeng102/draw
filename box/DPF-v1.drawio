@@ -59,13 +59,13 @@
           <mxGeometry x="620" y="770" width="112.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Wx0cIaCQdOZNczxIGOG-15" value="Host Software" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="485" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="490" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Wx0cIaCQdOZNczxIGOG-18" value="BlueField Software" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="710" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="715" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Wx0cIaCQdOZNczxIGOG-19" value="Hardware" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="845" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="850" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
